@@ -1,12 +1,12 @@
 import esphome.codegen as cg
 import esphome.config_validation as cv
 from esphome.components import i2c, sensor
-from esphome.const import {
+from esphome.const import (
     CONF_UPDATE_INTERVAL,
     DEVICE_CLASS_TEMPERATURE,
     STATE_CLASS_MEASUREMENT,
     UNIT_CELSIUS,
-}
+)
 
 DEPENDENCIES = ["i2c"]
 CODEOWNERS = ["@David-Jackson"]
