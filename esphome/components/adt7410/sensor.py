@@ -40,4 +40,4 @@ async def to_code(config):
     await i2c.register_i2c_device(var, config)
 
     # Add Adafruit ADT7410 library dependency
-    cg.add_library("adafruit/Adafruit ADT7410 Library", "1.0.0")  # Use latest stable version
+    cg.add_library("adafruit/Adafruit ADT7410 Library", "1.3.1")  # Use latest stable version
