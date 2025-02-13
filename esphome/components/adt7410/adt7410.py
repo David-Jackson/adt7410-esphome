@@ -38,3 +38,6 @@ async def to_code(config):
     var = await sensor.new_sensor(config)
     await cg.register_component(var, config)
     await i2c.register_i2c_device(var, config)
+
+    # Add Adafruit ADT7410 library dependency
+    cg.add_library("adafruit/Adafruit ADT7410 Library", "1.0.0")  # Use latest stable version
