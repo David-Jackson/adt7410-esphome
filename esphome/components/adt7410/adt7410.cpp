@@ -17,7 +17,7 @@ void ADT7410Component::setup() {
   }
 
   // Set to 16-bit resolution mode
-  adt7410_.setResolution(16);
+  adt7410_.setResolution(ADT7410_16BIT);
 }
 
 void ADT7410Component::update() {
